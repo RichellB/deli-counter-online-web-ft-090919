@@ -8,8 +8,8 @@ def line(array)
     array.each.with_index(1) do |name, position|
       line_position << "#{position}. #{name}."
     end
-  end
     line_position
+  end
 end
   
 def take_a_number(katz_deli, name)
