@@ -6,8 +6,8 @@ def line(array)
   else
     
     line_position = "The line is currently:"
-    array.each_with_index(1) do |name, position|
-      line_position << "#{position}. #{name}"
+    array.each.with_index(1) do |name, position|
+      line_position << " #{position}. #{name}"
     end
     line_position
   end
