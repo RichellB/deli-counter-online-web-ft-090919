@@ -9,7 +9,7 @@ def line(array)
     array.each.with_index(1) do |name, position|
       line_position << " #{position}. #{name}"
     end
-    line_position
+    puts line_position
   end
 end
   
