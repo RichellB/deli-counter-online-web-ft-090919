@@ -1,11 +1,11 @@
 # Write your code here.
 katz_deli = []
 
-def line(katz_deli)
-  if katz_deli.empty? 
+def line(array)
+  if array.empty? 
     puts "The line is currently empty."
   else
-    katz_deli.each.with_index(1) do |name, position|
+    array.each.with_index(1) do |name, position|
       line_position = "The line is currently: #{position} #{name}."
     end
   end
