@@ -2,7 +2,7 @@
 katz_deli = []
 
 def line(katz_deli)
-  if katz_deli.length == 0 
+  if katz_deli.empty? 
     line_position = "The line is currently empty."
   else
     katz_deli.each_with_index do |name, position|
