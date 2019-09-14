@@ -5,7 +5,7 @@ def line(katz_deli)
   if katz_deli.empty? 
     line_position = "The line is currently empty."
   else
-    katz_deli.each_with_index do |name, position|
+    katz_deli.each_with_index[1] do |name, position|
       line_position = "The line is currently: #{position} #{name}."
     end
   end
